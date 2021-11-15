@@ -3,6 +3,7 @@ extends Label
 
 func _ready():
 	  get_node("Button").connect("pressed", self, "_on_Button_pressed")
+	  self.text = "Two days until my next reproductive cycle."
 	
 func _on_Button_pressed():
 	print("yo")
